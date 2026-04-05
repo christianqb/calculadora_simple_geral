@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="display" readonly>   <!-- readonly para para ler alguns parâmetros -->
+        <div id="keys">
+            <button onclick="appendToDIsplay('+')" class="operator-btn">+</button> <!-- appendeToDisplay, vai adcionar na tela o + ao cliclar no botão-->
+            <button onclick="appendToDIsplay('7')">7</button> <!-- appendeToDisplay, vai adcionar na tela o 7 ao cliclar no botão-->
+            <button onclick="appendToDIsplay('8')">8</button> <!-- appendeToDisplay, vai adcionar na tela o 8 ao cliclar no botão-->
+            <button onclick="appendToDIsplay('9')">9</button> <!-- appendeToDisplay, vai adcionar na tela o 9 ao cliclar no botão-->
+            <button onclick="appendToDIsplay('-')" class="operator-btn">-</button> <!-- appendeToDisplay, vai adcionar na tela o - ao cliclar no botão-->
+            <button onclick="appendToDIsplay('4')">4</button> <!-- appendeToDisplay, vai adcionar na tela o 4 ao cliclar no botão-->
+            <button onclick="appendToDIsplay('5')">5</button> <!-- appendeToDisplay, vai adcionar na tela o 5 ao cliclar no botão-->
+            <button onclick="appendToDIsplay('6')">6</button> <!-- appendeToDisplay, vai adcionar na tela o 6 ao cliclar no botão-->
+            <button onclick="appendToDIsplay('*')" class="operator-btn">*</button> <!-- appendeToDisplay, vai adcionar na tela o * ao cliclar no botão-->
+            <button onclick="appendToDIsplay('1')">1</button> <!-- appendeToDisplay, vai adcionar na tela o + ao cliclar no botão-->
+            <button onclick="appendToDIsplay('2')">2</button> <!-- appendeToDisplay, vai adcionar na tela o + ao cliclar no botão-->
+            <button onclick="appendToDIsplay('3')">3</button> <!-- appendeToDisplay, vai adcionar na tela o + ao cliclar no botão-->
+            <button onclick="appendToDIsplay('/')" class="operator-btn">/</button> <!-- appendeToDisplay, vai adcionar na tela o + ao cliclar no botão-->
+            <button onclick="appendToDIsplay('0')">0</button> <!-- appendeToDisplay, vai adcionar na tela o + ao cliclar no botão-->
+            <button onclick="appendToDIsplay('.')" >.</button> <!-- appendeToDisplay, vai adcionar na tela o + ao cliclar no botão-->
+            <button onclick="calculate()">=</button>
+            <button onclick="clearDisplay()" class="operator-btn">C</button>
+            
+
+        </div>
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>
