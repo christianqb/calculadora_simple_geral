@@ -83,5 +83,5 @@ Este projeto não tem foco em complexidade, mas sim em:
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Christian**
+Desenvolvido por **Christian Queiroz**
 📚 Estudando programação e evoluindo constantemente
